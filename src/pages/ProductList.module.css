@@ -1,0 +1,46 @@
+.title {
+  margin: 20px;
+}
+.filtercontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  display: flex;
+  margin: 20px;
+}
+.filtertext {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.select {
+  padding: 10px;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 760px) {
+  .filter {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .filtertext {
+    margin-right: 0px;
+  }
+  .select {
+    margin: 10px 0px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .filter {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .filtertext {
+    margin-right: 0px;
+  }
+  .select {
+    margin: 10px 0px;
+  }
+}

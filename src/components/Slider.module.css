@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgcontainer {
+  height: 100%;
+  flex: 1;
+}
+.image {
+  height: 80%;
+}
+.infocontainer {
+  flex: 1;
+  padding: 50px;
+}
+
+.title {
+  font-size: 70px;
+}
+.description {
+  margin: 50px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.left {
+  left: 10px;
+}
+.right {
+  right: 10px;
+}
